@@ -255,17 +255,6 @@ const SitemapArray = {
             ]            
         },
         {
-            "Title":"Privacy Policy",
-            "childAvailable":true,
-            "innerdata":[
-                {
-                    "buttonName":"Privacy Policy",  
-                    "directedlink":"/privacy-policy",
-                    "buttonId":"privacy-policy"
-                }
-            ]            
-        },
-        {
             "Title":" classifieds",
             "childAvailable":true,
             "innerdata":[
@@ -312,22 +301,6 @@ const SitemapArray = {
                 },
             ]            
         },
-        {
-            "Title":"Club Registers",
-            "childAvailable":true,
-            "innerdata":[
-                {
-                    "buttonName":"Regional Registers",  
-                    "directedlink":"/registers#REGIONAL_REGISTORS",
-                    "buttonId":"club_regional_reg"
-                },
-                {
-                    "buttonName":"Metropolitan registers",  
-                    "directedlink":"/registers#METROPOLITAN_REGISTERS",
-                    "buttonId":"club_metropolitan"
-                },
-            ]            
-        }
     ]    
 }
 

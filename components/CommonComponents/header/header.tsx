@@ -70,7 +70,7 @@ function Header() {
                         <Link onMouseEnter={removeLinkOnhovers} onClick={() => setIsModal(!isModal)} id="about_us" href="/about-us" className={router.pathname === '/about-us' ? 'active-link' : ''}> About Us</Link>
                         <Link onMouseEnter={()=>onHoverHandle('news')} onClick={() => setIsModal(!isModal)} id="news" href="/news" className={router.pathname === '/news' ? 'active-link' : ''}> News and Articles</Link>
                         <Link onMouseEnter={()=>onHoverHandle('member')} onClick={() => setIsModal(!isModal)} id="membership" href="/membership" className={router.pathname === '/membership' ? 'active-link' : ''}>Membership</Link>
-                        <Link onMouseEnter={()=>onHoverHandle('club_reg')} onClick={() => setIsModal(!isModal)} id="regional_registers" href="/registers" className={router.pathname === '/registers' ? 'active-link' : ''}> Club Registers</Link>
+                        
                         <Link onMouseEnter={removeLinkOnhovers} onClick={() => setIsModal(!isModal)} id="regions" href="/regions" className={router.pathname === '/regions' ? 'active-link' : ''}> Regions</Link>
                         <Link onMouseEnter={removeLinkOnhovers} onClick={() => setIsModal(!isModal)} id="models" href="/models" className={router.pathname === '/models' ? 'active-link' : ''}> Models</Link>                        
                         <Link onMouseEnter={()=> onHoverHandle('sport')} onClick={() => setIsModal(!isModal)} id="sporting" href="/sporting" className={router.pathname === '/sporting' ? 'active-link' : ''}> Sporting</Link>
@@ -93,14 +93,6 @@ function Header() {
                         <Link className={`ml-5 ${router.asPath === '/news/restoration' ? 'active-link' : ''}`} id='news_restorations' href="/news/restoration" onClick={() => setIsModal(!isModal)}> Restorations</Link>
                         <Link className={`ml-5 ${router.asPath === '/news/catalog' ? 'active-link' : ''}`} id='news_catalog_magazines' href="/news/catalog" onClick={() => setIsModal(!isModal)}> CAT-A-LOG Magazine Archive </Link>
                         <Link className={`ml-5 ${router.asPath === '/news/club-news' ? 'active-link' : ''}`} id='news_club_news' href="/news/club-news" onClick={() => setIsModal(!isModal)}> News From the Club</Link>
-                    </div> }
-
-                    {activeLink === "club_reg" && <div className={`${styles.header_border} homelink`}>  
-                        {/* <Link className={`ml-5 ${router.asPath === '/registers?q=COMMITTEE' ? 'active-link' : ''}`} id='register_about' href={'/registers#COMMITTEE'} onClick={() => setIsModal(!isModal)}> committee </Link>                        
-                        <Link className={`ml-5 ${router.asPath === '/registers?q=COORDINATORS' ? 'active-link' : ''}`} id='register_sportng' href={'/registers#COORDINATORS'} onClick={() => setIsModal(!isModal)}> coordinators </Link> */}
-                        <Link className={`ml-5 ${router.asPath === '/registers?q=REGIONAL_REGISTORS' ? 'active-link' : ''}`} id='register_regional' href={'/registers#REGIONAL_REGISTORS'} onClick={() => setIsModal(!isModal)} > Regional Registers</Link>
-                        {/* <Link className={`ml-5 ${router.asPath === '/registers?q=COUNTRY_REGISTERS' ? 'active-link' : ''}`} id='register_country' href={'/registers#COUNTRY_REGISTERS'} onClick={() => setIsModal(!isModal)} > Country Registers</Link> */}
-                        <Link className={`ml-5 ${router.asPath === '/registers?q=METROPOLITAN_REGISTERS' ? 'active-link' : ''}`} id='register_metro' href={'/registers#METROPOLITAN_REGISTERS'} onClick={() => setIsModal(!isModal)}> Metropolitan Registers</Link>
                     </div> }
 
                     {activeLink === "sport" && <div className={`${styles.header_border}`}>

@@ -39,7 +39,6 @@ const Footer = () => {
                         <ul className={`uppercase font-Inter-Regular`}>
                             <li className={`py-3 hover:text-[#9E1B32] text-sm text-grey-900 font-medium tracking-normal`}><Link href="/calendar">Club Calendar</Link></li>
                             <li className={`py-3 hover:text-[#9E1B32] text-sm text-grey-900 font-medium tracking-wide`}><Link href="/about-us">About Us</Link></li>
-                            <li className={`py-3 hover:text-[#9E1B32] text-sm text-grey-900 font-medium tracking-wide`}><Link href="/privacy-policy">Privacy Policy</Link></li>
                             <li className={`py-3 hover:text-[#9E1B32] text-sm text-grey-900 font-medium tracking-wide`}><Link href="/sitemap">Site Map</Link></li>
                         </ul>
                     </div> 
@@ -54,8 +53,6 @@ const Footer = () => {
                             <li className={`py-3 hover:text-[#9E1B32] text-sm text-grey-900 font-medium tracking-wide`}><Link href="/contact">Contact Us</Link></li>
                             <li className={`py-3 hover:text-[#9E1B32] text-sm text-grey-900 font-medium tracking-wide`}><Link href={`/contact#COMMITTEE`}>Committee</Link></li> 
                             <li className={`py-3 hover:text-[#9E1B32] text-sm text-grey-900 font-medium tracking-wide`}><Link href="/regions">Regions</Link></li>
-                            <li className={`py-3 hover:text-[#9E1B32] text-sm text-grey-900 font-medium tracking-wide`}><Link id='register_about' href={`/registers#METROPOLITAN_REGISTERS`}>Metropolitan Registers</Link></li>
-                            {/* <li className={`py-3 hover:text-[#9E1B32] text-sm text-grey-900 font-medium tracking-wide`}><Link id='register_sportng' href={{pathname: '/sporting',query: { q: 'SPORTING_REGISTERS' },}}>Sporting Register</Link></li> */}
                             <li className={`py-3 hover:text-[#9E1B32] text-sm text-grey-900 font-medium tracking-wide`}><Link id='register_sportng' href="/sporting">Sporting Register</Link></li> 
                         </ul>
                     </div>   

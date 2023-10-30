@@ -21,15 +21,6 @@ const StateMap = () => {
 		const representatives = await Region.get.representatives(code)
 		setDetails(representatives)
 		setInstructions(false)
-
-		
-		if (code === 'METROPOLITAN') {
-			router.push('/registers#METROPOLITAN_REGISTERS');
-			// router.push({
-			// 	pathname: '/registers',
-			// 	query: { q: 'METROPOLITAN_REGISTERS' }
-			//   });
-		}
 	}
 
 	const showDetail = (id: any) => {
