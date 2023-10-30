@@ -1,0 +1,192 @@
+{           
+    "classItems":"pageLinksColumns2",
+    "introParagraph":"The JCCV includes these links as a service to Jaguar enthusiasts and the presence of a link does not constitute an endorsement of that person, product or organisation by the JCCV",
+    "links":[
+        {
+            "Title":"official jaguar sites",
+            "childAvailable":true,
+            "innerdata":[
+                
+                {
+                    "buttonName":"jaguar global",  
+                    "directedlink":"https://www.jaguar.com/market-selector.html",
+                    "target":"_blank"
+                    
+                },
+                {
+                    "buttonName":"jaguar australia",  
+                    "directedlink":"https://www.jaguar.com.au/index.html",
+                    "target":"_blank"
+                }
+            ]
+            
+        },
+        {
+            "Title":"Advertisers and supporters",
+            "childAvailable":true,
+            "innerdata":[
+                {
+                    "buttonName":"Australian Classic Wire Wheels",  
+                    "directedlink":"https://acww.com.au/",
+                    "target":"_blank"
+                },
+                {
+                    "buttonName":"Carwood",  
+                    "directedlink":"http://www.jagsrus.com.au/",
+                    "target":"_blank"
+                },
+                {
+                        "buttonName":"Lou Guthry Motors",  
+                    "directedlink":"https://louguthry.com.au/",
+                    "target":"_blank"
+                },
+                {
+                    "buttonName":"Lumley Special Vehicles",  
+                    "directedlink":"https://www.lsvcarinsurance.com.au/",
+                    "target":"_blank"
+                },
+                {
+                    "buttonName":"Shannons",  
+                    "directedlink":"https://www.shannons.com.au/",
+                    "target":"_blank"
+                },
+                {
+                    "buttonName":"Kew Gardens Aged Care ",  
+                    "directedlink":"https://kewgardens.com.au/",
+                    "target":"_blank"
+                },
+                {
+                    "buttonName":"Mike Roddy Motors",  
+                    "directedlink":"https://www.mikeroddy.com.au/",
+                    "target":"_blank"
+                },
+                {
+                        "buttonName":"SNG Barratts",  
+                    "directedlink":"https://www.sngbarratt.com/",
+                    "target":"_blank"
+                },
+                {
+                    "buttonName":"Matt's Automotive",  
+                    "directedlink":"http://mattsautomotive.com.au/",
+                    "target":"_blank"
+                },
+                {
+                    "buttonName":"Blackmans Interior Repair Centre",  
+                    "directedlink":"https://www.instagram.com/blackmans.interiors/",
+                    "target":"_blank"
+                },
+                {
+                    "buttonName":"Stuckey Tyre Service",  
+                    "directedlink":"https://www.stuckey.com.au/",
+                    "target":"_blank"
+                }
+                
+            ]
+            
+        },
+        {
+            "Title":"Jaguar Clubs & Interest Groups",
+            "childAvailable":true,
+            "innerdata":[
+                {
+                    "buttonName":"JAGwebworld",  
+                    "directedlink":"https://www.jagwebworld.com/",
+                    "target":"_blank"
+                },
+                {
+                    "buttonName":"Jag Lovers",  
+                    "directedlink":"https://www.jag-lovers.org/",
+                    "target":"_blank"
+                },
+                {
+                        "buttonName":"Jaguar Car Club of WA",  
+                    "directedlink":"https://jaguarcarclubofwa.com.au/",
+                    "target":"_blank"
+                },
+                {
+                    "buttonName":"Jaguar Car Club Tasmania",  
+                    "directedlink":"https://www.jagtas.org.au/",
+                    "target":"_blank"
+                },
+                {
+                    "buttonName":"Australian Council of Jaguar Clubs",  
+                    "directedlink":"https://www.jaguar-acjc.org/",
+                    "target":"_blank"
+                },
+                {
+                    "buttonName":"Jaguar Drivers' Club Hunter Region",  
+                    "directedlink":"http://www.jaguarhunter.org.au/",
+                    "target":"_blank"
+                },
+                {
+                    "buttonName":"Auckland Jaguar Drivers' Club",  
+                    "directedlink":"https://www.jaguardriversclub.co.nz/",
+                    "target":"_blank"
+                },
+                {
+                    "buttonName":"Forum - Jaguar F-Type (UK)",  
+                    "directedlink":"https://www.ftypeforums.co.uk/",
+                    "target":"_blank"
+                },
+                {
+                        "buttonName":"Forum - Jaguar XF (UK)",  
+                    "directedlink":"https://www.xfforum.co.uk/",
+                    "target":"_blank"
+                },
+                {
+                    "buttonName":"XK8/XKR Enthusiasts Club",  
+                    "directedlink":"https://www.thexkec.co.uk/",
+                    "target":"_blank"
+                },
+                {
+                    "buttonName":"All British Classics Car Club (Vic)",  
+                    "directedlink":"http://www.abccc.com.au/",
+                    "target":"_blank"
+                },
+                {
+                    "buttonName":"Jaguar Car Club of Victoria, Canada",  
+                    "directedlink":"https://jccv.clubexpress.com/",
+                    "target":"_blank"
+                },
+                {
+                    "buttonName":"Jaguar Drivers' Club South Australia",  
+                    "directedlink":"https://jdcsa.com.au/",
+                    "target":"_blank"
+                },
+                {
+                    "buttonName":"Jaguar Drivers' Club Canberra",  
+                    "directedlink":"http://jdcc.org.au/",
+                    "target":"_blank"
+                },
+                {
+                    "buttonName":"Jaguar Drivers' Club Australia(Sydney, New South Wales)",  
+                    "directedlink":"https://www.jaguar.org.au/",
+                    "target":"_blank"
+                },
+                {
+                    "buttonName":"Jaguar Drivers' Club of Queensland",  
+                    "directedlink":"https://www.jagqld.org.au/",
+                    "target":"_blank"
+                },
+                {
+                        "buttonName":"Forum - Jaguar XE (UK)",  
+                    "directedlink":"https://www.xeforums.co.uk/",
+                    "target":"_blank"
+                },
+                {
+                    "buttonName":"Forum - Jaguar F-Pace (UK)",  
+                    "directedlink":"https://www.fpaceforums.co.uk/",
+                    "target":"_blank"
+                },
+                {
+                    "buttonName":"Forum - Jaguar I-Pace (UK)",  
+                    "directedlink":"https://www.ipaceforums.co.uk/",
+                    "target":"_blank"
+                }
+            ]
+            
+            
+        } 
+
+    ]        
+}

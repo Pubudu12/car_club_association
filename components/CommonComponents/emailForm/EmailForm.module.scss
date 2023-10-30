@@ -1,0 +1,112 @@
+.mainEmailBox{
+    padding: 20px 40px;
+    width: 80%;
+}
+.inputBox input[type=text]{
+    padding: 12px 10px;
+}
+
+.inputBox input::placeholder, .inputBox textarea::placeholder{
+    color: rgba(128, 128, 128, 0.671) !important;
+}
+
+.inputBox input:focus, .inputBox textarea:focus{
+    outline: none !important;
+}
+
+.mainEmailBox .inputBox{
+    width: 100%;
+    position: relative;
+    margin-top: 5%;
+}
+
+.mainEmailBox .inputBox input , .mainEmailBox .inputBox textarea{
+    width: 100%;
+    padding: 10px 10px 10px 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    border: none;
+    overflow-y: hidden;
+    border-bottom: 2px solid rgba(158, 27, 50, 0.2);
+    background: #f3f4f6;
+}
+
+.mainEmailBox .inputBox ::placeholder{
+    text-align: start;
+    pointer-events: none;
+    transition: 0.5s;
+    font-weight: 500;
+    padding-left: 0rem;
+    color:rgba(0, 0, 0, 0.5);
+}
+
+.mainEmailBox .inputBox label  {
+    width: 30%;
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    padding-right: 5rem;
+    color: black;
+    padding: 10px 10px 10px 0;
+}
+.mainEmailBox .inputBox input{
+    margin-bottom: 10px;
+}
+.emailButton{
+    color: black;
+    font-weight: 800;
+    text-transform: uppercase;
+
+}
+.emailButton .emailButtonDiv{
+    // background: rgba(158, 27, 50, 0.1);
+}
+
+.emailButtonDiv button::after{
+    content: '\003E';
+    padding-left: 1rem;
+    font-size: 20px;
+    font-weight: 700;
+    color: #9E1B32;
+}
+.emailButtonDiv button:hover{
+    color: #9E1B32;
+}
+.emailButtonDiv button:hover::after
+{
+    padding-left: 1rem;
+    transition: ease-in-out 0.3s;
+}
+
+
+// ------------------------------------Responsivness--------------------------------------------
+@media screen and (max-width:547px) {
+    .mainEmailBox .inputBox label  {
+        width: 100%;
+    }
+
+    .mainEmailBox{
+        width: 100%;
+    }
+}
+
+
+@media (min-width:768px) and (max-width:1023px) {
+    .mainEmailBox{
+        width: 100%;
+    }
+}
+
+@media (min-width:375px) and (max-width:600px) {
+    .mainEmailBox{
+        width: 100%;
+    }
+    .mainEmailBox .inputBox input , .mainEmailBox .inputBox textarea{
+        border-bottom: 3px solid rgba(158, 27, 50, 0.2);
+        padding-left: 0.5rem;
+    }
+    
+}

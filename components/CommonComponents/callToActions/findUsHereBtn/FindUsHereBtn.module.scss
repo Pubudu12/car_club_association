@@ -1,0 +1,22 @@
+.findustext{
+    color: black;
+    line-height: 22px;
+    font-weight: 700;
+    font-size: 18px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.findustext:hover{
+    color: #9E1B32;
+}
+
+// .findustext::before{
+//     content:">";
+//     bottom: 3px;
+//     position: absolute;
+//     color: #9E1B32;
+//     font-weight: 700;
+//     font-size: 24px;
+//     border-radius: 2rem;
+// }

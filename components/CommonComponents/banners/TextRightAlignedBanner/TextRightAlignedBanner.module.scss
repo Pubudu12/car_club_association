@@ -1,0 +1,16 @@
+.bannerOuter{
+    background-image: url('../../../../public/images/homePage/bannerImages/classifieds.webp');
+    background-repeat: no-repeat;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    // height: 55vh;
+    padding: 100px 0;
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+.bannerOuter{
+    padding: 87px 0;
+}
+
+}

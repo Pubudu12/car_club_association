@@ -1,0 +1,127 @@
+.radioSelctionCatg, .radioSelctionSale {
+  list-style-type: none;
+  margin: 0 0 0 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.radioSelctionCatg span:first-child {
+  float: left;
+  margin: 0 0px 0 0;
+  width: 200px;
+  height: 32px;
+  position: relative;
+  background-color: white;
+}
+
+.radioSelctionCatg span:not(:first-child), .radioSelctionSale span {
+  float: left;
+  margin: 0 0px 0 0;
+  width: 100px;
+  height: 32px;
+  position: relative;
+  background-color: white;
+}
+
+.radioSelctionCatg label,
+.radioSelctionCatg input,
+.radioSelctionSale label,
+.radioSelctionSale input {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.radioSelctionCatg input[type="radio"] , .radioSelctionSale input[type="radio"]{
+  opacity: 0.01;
+  z-index: 100;
+}
+
+.radioSelctionCatg input[type="radio"]:checked+label,
+.Checked+label ,
+.radioSelctionSale input[type="radio"]:checked+label,
+.Checked+label {
+  background: rgba(117, 13, 13, 0.178);
+}
+
+.radioSelctionCatg label,.radioSelctionSale label {
+  padding: 2px 5px;
+  border: 1px solid #CCC;
+  cursor: pointer;
+  text-align: center;
+  // z-index: 90;
+}
+
+.radioSelctionCatg label:hover, .radioSelctionSale label:hover {
+  background: white;
+}
+
+
+// Checkbox styles
+  .selection {
+    background-color:#EFEFEF;
+    border:1px solid #D0D0D0;
+   //  overflow:auto;
+   //  float:left;
+ }
+ 
+ .selection label {
+    float:left;
+ }
+ 
+ .selection label span {
+    text-align:center;
+    padding:3px 0px;
+    display:block;
+ }
+ .radioSelectionAmount{
+  font-size: 0.875rem;
+  line-height: 1rem;
+ }
+ 
+ .selection label input {
+    position:absolute;
+    top:-20px;
+ }
+ 
+ .selection input:hover + span {
+    background-color:#efE0E0;
+ }
+ 
+ .selection input:checked + span {
+    background-color:#911;
+    color:#fff;
+ }
+ 
+ .selection input:checked:hover + span {
+    background-color:#c11;
+    color:#fff;
+ }
+
+@media screen and (max-width:640px) {
+  
+}
+
+@media (min-width:641px) and (max-width:820px) {
+  .radioSelctionCatg span:first-child {
+    float: left;
+    margin: 0 0px 0 0;
+    width: 150px;
+    height: 32px;
+    font-size: 12px;
+    background-color: white;
+  }
+
+  .radioSelctionCatg span:not(:first-child), .radioSelctionSale span {
+    font-size: 12px;
+    margin: 0 0px 0 0;
+  }
+
+  .radioSelctionCatg label,.radioSelctionSale label {
+    padding: 5px 5px;
+  }
+  
+}

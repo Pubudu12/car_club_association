@@ -1,0 +1,70 @@
+.lefttitle {
+  color: black;
+  font-size: 40px;
+  width: 40%;
+}
+.lefttitlediv .maintitle {
+  width: 30%;
+  line-height: 140%;
+}
+.lefttitle span {
+  font-weight: 700;
+  color: #111111;
+}
+
+.leftpara p {
+  width: 85%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #111111;
+  // opacity: 0.8;
+}
+
+@media (min-width: 1280px) and (max-width: 1535px) {
+  .lefttitle {
+    width: 48%;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1279px) {
+  .lefttitle {
+    width: 75%;
+  }
+  .leftpara p {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+  .lefttitle {
+    width: 71%;
+  }
+  .leftpara p {
+    width: 86%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .lefttitle {
+    font-size: 32px;
+    width: 100%;
+  }
+  .leftpara p {
+    width: 100%;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 600px) {
+  .lefttitle {
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+  }
+  .leftpara p {
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,17 @@
+.memberTitle h1{
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+
+
+// --------------------------------Responsivness-----------------------------------------
+
+@media (min-width:375px) and (max-width:600px) {
+    .memberTitle h1{
+        font-size: 24px;
+    }
+    
+}

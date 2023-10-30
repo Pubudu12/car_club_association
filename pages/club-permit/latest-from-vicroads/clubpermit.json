@@ -1,0 +1,60 @@
+{ 
+    "itemset":[
+        {
+            "TitleAvailabe":true,
+            "title":"  Why have these changes been made?",
+            "childAvailable":false,
+            "SecondTitleAvailabe":true,
+            "SecondTitle":"These forms now have an updated layout and align with the Road Safety (Vehicles) Regulations 2021.",
+
+            "innerText":""
+           
+               
+        },
+        {
+            "TitleAvailabe":true,
+            "title":" Club Permit application",
+            "childAvailable":false,
+            "SecondTitleAvailabe":true,
+            "SecondTitle":"There are only four categories of Club Permit – Veteran, Vintage, Classic and Historic, and Street Rod. Each category now has a sub-category – either Original, Modified or Replica. The documents required for each sub-category are listed at the bottom of the form.",
+
+            "innerText":""
+           
+               
+        },
+        {
+            "TitleAvailabe":true,
+            "title":"Vehicle eligibility and standards declaration for Club Permit vehicles",
+            "childAvailable":false,
+            "SecondTitleAvailabe":true,
+            "SecondTitle":"Now includes a record of the VASS approval certificate and Vehicle import details, where applicable.",
+
+            "innerText":""
+           
+               
+        },
+        {
+            "TitleAvailabe":true,
+            "title":"Club permit reassignment and Club permit agreement",
+            "childAvailable":false,
+            "SecondTitleAvailabe":true,
+            "SecondTitle":"Re-ordering of the data fields",
+
+            "innerText":""
+           
+               
+        },
+        {
+            "TitleAvailabe":true,
+            "title":"Club Permit logbook",
+            "childAvailable":false,
+            "SecondTitleAvailabe":true,
+            "SecondTitle":"The Club Permit logbook has been updated to align with regulation changes.",
+
+            "innerText":""
+           
+               
+        }
+
+    ]
+}

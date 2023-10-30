@@ -1,0 +1,19 @@
+.bannerOuter{
+    background-image: url('../../../../public/images/homePage/bannerImages/merchandise.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 60vh;
+}
+
+@media screen and (max-width:991px) {
+    .bannerOuter{
+        background-image: url('../../../../public/images/homePage/bannerImages/merchandise_mobile.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 50vh;
+    }
+}

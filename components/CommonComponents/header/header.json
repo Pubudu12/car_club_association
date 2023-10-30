@@ -1,0 +1,252 @@
+{   
+    "links" : [
+        {
+            "linkText":"Home",
+            "link":"/",
+            "sublinksAvailability":"NO"
+        },
+        {
+            "linkText":"About Us",
+            "link":"/about-us",
+            "sublinksAvailability":"NO"
+        },
+        {
+            "linkText":"News And Articles",
+            "link":"null",
+            "code":"NEWS",
+            "sublinksAvailability":"YES",
+            "sublinks":
+            [
+                {
+                    "linkText":"News And Articles",
+                    "link":"/news",
+                    "target":""
+                },
+                {
+                    "linkText":"Tech Tips",
+                    "link":"/news/tech-tips",
+                    "target":""
+                },
+                {
+                    "linkText":"Restorations",
+                    "link":"/news/restoration",
+                    "target":""
+                },
+                {
+                    "linkText":"CAT-A-LOG Magazine Archive",
+                    "link":"/news/catalog",
+                    "target":""
+                },
+                {
+                    "linkText":"News From the Club",
+                    "link":"/news/club-news",
+                    "target":""
+                },
+                {
+                    "linkText":"Current President's Report",
+                    "link":"/news/current-president-report",
+                    "target":""
+                }
+            ]  
+        },
+        {
+            "linkText":"Membership",
+            "link":"null",
+            "code":"MEMBERSHIP",
+            "sublinksAvailability":"YES",
+            "sublinks":
+            [
+                {
+                    "linkText":"About Membership",
+                    "link":"/membership",
+                    "target":""
+                },
+                {
+                    "linkText":"Applying For New Membership",
+                    "link":"https://memberdesq.sportstg.com/index.cfm?fuseaction=registration_1&RegistrationMode=2&SubscriptionTypeID=278&OrgID=2037",
+                    "target":"_blank"
+                },
+                {
+                    "linkText":"Membership Renewal",
+                    "link":"https://memberdesq.sportstg.com/index.cfm?fuseaction=login&OrgID=2037",
+                    "target":"_blank"
+                },
+                {
+                    "linkText":"Constitution and by laws",
+                    "link":"https://memberdesq.sportstg.com/index.cfm?fuseaction=login&OrgID=2037",
+                    "target":"_blank"
+                }
+            ]            
+        },
+        {
+            "linkText":"Club Registers",
+            "link":"null",
+            "code":"CLUBREGISTERS",
+            "sublinksAvailability":"YES",
+            "sublinks":
+            [
+                {
+                    "linkText":"Regional Registers",
+                    "link":"/registers#REGIONAL_REGISTORS",
+                    "target":""
+                },
+                {
+                    "linkText":"Metropolitan Registers",
+                    "link":"/registers#METROPOLITAN_REGISTERS",
+                    "target":""
+                }
+            ]  
+        },        
+        {
+            "linkText":"Regions",
+            "link":"/regions",
+            "sublinksAvailability":"NO"            
+        },
+        {
+            "linkText":"Models",
+            "link":"/models",
+            "sublinksAvailability":"NO"            
+        },        
+        {
+            "linkText":"Sporting",
+            "link":"null", 
+            "code":"SPORTING",
+            "sublinksAvailability":"YES",
+            "sublinks":
+            [
+                {
+                    "linkText":"Sporting",
+                    "link":"/sporting",
+                    "target":""
+                },
+                {
+                    "linkText":"Winton 2023",
+                    "link":"/sporting/winton-results/2023",
+                    "target":""
+                },
+                {
+                    "linkText":"Upcoming Track Events",
+                    "link":"#",
+                    "target":""
+                },
+                {
+                    "linkText":"MK1 Racer",
+                    "link":"/sporting/sportingMk1",
+                    "target":""
+                },
+                {
+                    "linkText":"Marque Sports Car Association (MSCA)",
+                    "link":"https://msca.net.au/",
+                    "target":"_blank"
+                },
+                {
+                    "linkText":"Sporting Photos",
+                    "link":"https://www.flickr.com/photos/102103696@N06/",
+                    "target":"_blank"
+                }
+            ]          
+        },
+        {
+            "linkText":"Concours",
+            "link":"null",
+            "code":"CONCOURS",
+            "sublinksAvailability":"YES",
+            "sublinks":
+            [
+                {
+                    "linkText":"Concours",
+                    "link":"/concours",
+                    "target":""
+                },
+                {
+                    "linkText":"Concours Rules",
+                    "link":"/concours/rules",
+                    "target":""
+                },
+                {
+                    "linkText":"Entrants 2023",
+                    "link":"/concours/entrants",
+                    "target":""
+                },
+                {
+                    "linkText":"Concours Results",
+                    "link":"/concours/results",
+                    "target":""
+                },
+                {
+                    "linkText":"Perpetual Trophies",
+                    "link":"/concours/perpetual",
+                    "target":""
+                }
+            ]                 
+        },
+        {
+            "linkText":"Club Permit registration",
+            "link":"null",
+            "code":"CLUBPERMIT",
+            "sublinksAvailability":"YES",
+            "sublinks":
+            [
+                {
+                    "linkText":"Notice to Prospective Members",
+                    "link":"/club-permit/notice-to-prospective-members",
+                    "target":""
+                },
+                {
+                    "linkText":"Background",
+                    "link":"/club-permit/background",
+                    "target":""
+                },
+                {
+                    "linkText":"Club Policy",
+                    "link":"/club-permit/club-policy",
+                    "target":""
+                },
+                {
+                    "linkText":"Operation",
+                    "link":"/club-permit/operation",
+                    "target":""
+                },
+                {
+                    "linkText":"Application Process",
+                    "link":"/club-permit/application-process",
+                    "target":""
+                },
+                {
+                    "linkText":" Latest from vicroads",
+                    "link":"/club-permit/latest-from-vicroads",
+                    "target":""
+                }
+            ]                   
+        },
+        {
+            "linkText":"Classifieds",
+            "link":"null",     
+            "code":"CLASSIFIEDS",
+            "sublinksAvailability":"YES",
+            "sublinks":
+            [
+                {
+                    "linkText":"Disclaimer",
+                    "link":"/classifieds/disclaimer",
+                    "target":""
+                },
+                {
+                    "linkText":"Classifieds",
+                    "link":"/classifieds",
+                    "target":""
+                } 
+            ]    
+        },
+        {
+            "linkText":"Contact Us",
+            "link":"/contact",
+            "sublinksAvailability":"NO"            
+        },
+        {
+            "linkText":"Links",
+            "link":"/links",
+            "sublinksAvailability":"NO"            
+        }
+    ]           
+}

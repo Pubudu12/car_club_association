@@ -1,0 +1,113 @@
+.backgroundImage {
+  width: 100%;
+  background-image: url("../../../public/images/homePage/backgroundImages/backgroundImage.webp");
+  position: relative;
+  // top: -120px;
+  // z-index: -2;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  // padding-bottom: calc(100% * 3 / 4);
+  // top: 5px;
+}
+
+.trasparentCard {
+  background-color: rgba(255, 255, 255, 0.48);
+  border: 1px solid white;
+  height: 300px;
+}
+
+.h2_title {
+  font-family: "Inter SemiBold";
+  font-size: 18px;
+  width: 85%;
+}
+
+.card_content {
+  font-family: "Inter Regular";
+  font-weight: 400;
+  // color: #969696;
+  overflow: hidden;
+  text-overflow: initial;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  padding-bottom: 30px;
+}
+
+.outer {
+  width: 100%;
+  background-image: url("https://i.stack.imgur.com/viNrB.png");
+  background-size: cover;
+  height: 0;
+  padding: 0; /* reset */
+  padding-bottom: calc(100% * 3 / 4);
+}
+
+.text {
+  text-align: center;
+  color: white;
+}
+
+@media screen and (max-width: 991px) {
+  .backgroundImage {
+    height: 200vh;
+    bottom: -7px;
+  }
+
+  .h2_title {
+    color: #9e1b32;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .backgroundImage {
+    height: 350vh;
+    background-image: url("../../../public/images/homePage/backgroundImages/mobile.webp");
+  }
+}
+
+@media (min-width: 300px) and (max-width: 360px) {
+  .backgroundImage {
+    // height: 180vh;
+    height: 265vh;
+    background-image: url("../../../public/images/homePage/backgroundImages/mobile.webp");
+  }
+}
+
+@media (min-width: 360px) and (max-width: 390px) {
+  .backgroundImage {
+    height: 210vh;
+    background-image: url("../../../public/images/homePage/backgroundImages/mobile.webp");
+  }
+}
+
+@media (min-width: 390px) and (max-width: 400px) {
+  .backgroundImage {
+    height: 190vh;
+    background-image: url("../../../public/images/homePage/backgroundImages/mobile.webp");
+  }
+}
+
+@media (min-width: 400px) and (max-width: 640px) {
+  .backgroundImage {
+    height: 180vh;
+    background-image: url("../../../public/images/homePage/backgroundImages/mobile.webp");
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .backgroundImage {
+    background-image: url("../../../public/images/homePage/backgroundImages/tablet.webp");
+    height: 80vh;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+  .backgroundImage {
+    background-image: url("../../../public/images/homePage/backgroundImages/tablet.webp");
+    height: 80vh;
+  }
+}

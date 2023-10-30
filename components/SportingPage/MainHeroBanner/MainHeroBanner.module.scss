@@ -1,0 +1,65 @@
+.mainBannerOuter{
+    background-image:url('../../../public/images/sportingPage/Sporting-Hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.mainBannerText span{
+    font-weight: 700;
+}
+
+.mainBannerText{
+    font-size: 64px;
+    line-height: 80%;
+    width: 35%;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.mainBannerPara{
+    font-size: 20px;
+    color: #111111;
+    font-weight: 400;
+    line-height: 135%;
+    // opacity: 0.6;
+}
+
+//----------------------------------Responsivness--------------------------------
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+    .mainBannerOuter{
+    height: 60vh;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    .mainBannerText{
+        font-size: 60px;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .mainBannerText{
+        font-size: 40px;
+        width: 100%;
+        text-align: center;
+    }
+    .mainBannerPara{
+       text-align: center;
+    }
+    
+}
+
+@media (min-width: 375px) and (max-width: 600px) {
+    .mainBannerText{
+        font-size: 40px;
+        width: 100%;
+        text-align: center;
+    }
+    .mainBannerPara{
+       text-align: center;
+    }
+}

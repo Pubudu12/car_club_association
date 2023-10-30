@@ -1,0 +1,33 @@
+.title{
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 140%;
+text-transform: uppercase;
+padding-top: 1rem;
+padding-bottom: 1rem;
+}
+.cardtitle{
+    font-family: 'Inter Medium';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+
+text-transform: uppercase;
+padding-top: 1rem;
+
+}
+.light{
+    font-family: 'Inter ExtraLight';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+
+
+}
+
+@media screen and (max-width:640px){
+    .title{
+        font-size: 20px;
+    }
+}

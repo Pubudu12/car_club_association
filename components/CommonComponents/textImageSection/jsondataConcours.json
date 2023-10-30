@@ -1,0 +1,15 @@
+{
+    "posts" : [
+        {
+          "highlightedTextOne":"Concours",
+          "lightText":" winners whose names will live on",
+          "class":"evenAlignment",
+          "highlightedText":"forever",
+          "paraTextone":"Often the competitiveness of a Concours d’Elegance forces the restoration of a vehicle to surpass ‘mint’ condition, mint condition would be the state of the vehicle when it originally left the factory.",
+          "paraTexttwo":"These winners are our community's proud members who managed to bring their prized jaguars up to the standard required for this competition, immortalizing both their names and the jaguars.",
+          "mainImage":"/images/ConcourImages/2nd-section-image.png",
+          "redirectBtn":true
+        }
+        
+    ]
+  }

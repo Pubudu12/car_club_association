@@ -1,0 +1,80 @@
+{ 
+    "itemset":[
+        {
+            "TitleAvailabe":false,
+            "title":"",
+            "childAvailable":false,
+            "SecondTitleAvailabe":true,
+            "SecondTitle":"Take your completed documents to the VicRoads Customer Service Centre ",
+
+            "innerText":[
+                
+
+              
+            ]
+           
+               
+        },
+        {
+                        
+            "TitleAvailabe":false,
+
+            "title":"",
+            "childAvailable":true,
+            "SecondTitleAvailabe":true,
+            "SecondTitle":" At the Customer Service Centre, your documents and evidence of identity will be checked and your payment taken and if all is in order your plates issued ",
+
+            "innerText":[
+                {
+                    "step":"Once your application has been accepted and approved you will need to:"
+                },
+                {
+                    "step":"attach the club permit certificate to the inside cover of your logbook"
+                },
+                {
+                    "step":"  attach the windscreen label to the vehicle to assist in identifying vehicles operating with a current permit"
+                },
+                {
+                    "step":"Follow the conditions of use for club permit vehicles."
+                }
+                
+
+              
+            ]
+           
+               
+        },
+        {
+            "TitleAvailabe":true,
+            "title":"You must advise the Club Permit Officer of the Licence plate number issued to your vehicle within 7 days of receiving your plates",
+            "childAvailable":false,
+            "SecondTitleAvailabe":false,
+            "SecondTitle":"  ",
+
+            "innerText":[
+                
+
+              
+            ]
+           
+               
+        },
+        {
+            "TitleAvailabe":true,
+            "title":"You must advise VicRoads and the Club Permit Officer immediately if you dispose of your vehicle.",
+            "childAvailable":false,
+            "SecondTitleAvailabe":false,
+            "SecondTitle":"  ",
+
+            "innerText":[
+                
+
+              
+            ]
+           
+               
+        }
+
+
+    ]
+}

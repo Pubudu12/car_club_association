@@ -1,0 +1,22 @@
+
+{
+  "posts" : [
+      {
+        "lightText":"Bring your",
+        "highlightedText":"family and friends",
+        "class":"oddAlignment",
+        "paraTextone":"We schedule events all year long so that members, their partners, kids, and grandchildren can take part. Members and their families are encouraged to attend the monthly general meetings at our club rooms, which offer a casual and welcoming atmosphere for members to meet and socialize, hear from special guests, and end the night with a catered supper.",
+        "paraTexttwo":"The JCCV takes pride in being an inclusive club that welcomes and supports all new members and their families.",
+        "mainImage":"/images/AboutUsImages/gridimage-one.webp"
+      },
+      {
+        "lightText":" Where can you ",
+        "highlightedText":"meet us?",
+        "class":"oddAlignment",
+        "paraTextone":"Our meeting location is a testament to the foresight of early members who formed a partnership with the Austin Healey Club and purchased our own clubrooms. They are discreetly located in Springvale and provide members with a comfortable club atmosphere and relaxed atmosphere appropriate for these fine British marques, their owners, and their families.",
+        "paraTexttwo":"The club rooms offer a large meeting room equipped with full audio-visual facilities, lounge room, conference room, library, merchandise shop, kitchen, and licensed bar.",
+        "mainImage":"/images/AboutUsImages/gridimage-two.webp"
+      }
+      
+  ]
+}

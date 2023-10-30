@@ -1,0 +1,59 @@
+.listdots li a::after{
+    content: "\0025cf";
+    padding: 1rem;
+}
+.listdots li a ,.listdots li a::after{
+    color: #9E1B32;
+    opacity: 0.4;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.listdots li a:hover{
+    opacity: 100%;
+}
+
+.listdots li a:last-child::after{
+   display: none;
+}
+
+.para::after{
+    content: "\003E";
+    padding: 2rem;    
+}
+
+
+// -----------------------------------Responsivness---------------------------------------------
+
+@media (min-width:1024px) and (max-width:1366px) {
+    .listdots li a ,.listdots li a::after{
+        font-size: 16px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+    .listdots li a ,.listdots li a::after{
+        font-size: 13px;
+    }
+    .listdots li a::after{
+        padding: 0.6rem;
+    }
+}
+
+@media (min-width:375px) and (max-width:600px) {
+    .listdots li a ,.listdots li a::after{
+        text-align: center;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .listdots li a::after{
+        padding: 1rem;
+    }
+
+    .listdots li a ,.listdots li a::after{
+        display: inline;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,29 @@
+{ 
+    "stepthree":[
+        {
+            "title":" Take your completed documents to the VicRoads Customer Service Centre",
+            "childAvailable":false      
+        },
+        {
+            "title":" your documents and evidence of identity will be checked and your payment taken and if all is in order your plates issued",
+            "childAvailable":true,
+            "innerText":[
+                {
+                    "step":"Once your application has been accepted and approved you will need to:"
+                },
+                {                    
+                    "step":"attach the club permit certificate to the inside cover of your logbook"                   
+                },
+                {                    
+                    "step":"attach the windscreen label to the vehicle to assist in identifying vehicles operating with a current permit"  
+                },
+                {                    
+                    "step":"affix the allocated Club Permit number plates to your vehicle Follow the conditions of use for club permit vehicles." 
+                },
+                {                    
+                    "step":"Follow the conditions of use for club permit vehicles.."  
+                }
+            ]           
+        }
+    ]
+}

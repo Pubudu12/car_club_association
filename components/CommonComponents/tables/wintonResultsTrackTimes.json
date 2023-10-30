@@ -1,0 +1,26 @@
+
+{
+    "tableColumns" : [
+        {
+          "className":"position",
+          "columnName":"Position"
+        },
+        {
+          "className":"number",
+          "columnName":"Number"
+        },
+        {
+            "className":"name",
+            "columnName":"Name"
+        },
+        {
+            "className":"car",
+            "columnName":"Car"
+        },
+        {
+            "className":"time",
+            "columnName":"Time"
+        }
+        
+    ]
+  }

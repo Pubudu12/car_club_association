@@ -1,0 +1,22 @@
+{
+    "slidepictures" : [
+        {
+          "sliderImage":"/images/AboutUsImages/sec-slide-one.webp"
+          
+        },
+
+        {
+          "sliderImage":"/images/AboutUsImages/sec-slide-two.webp"
+        },
+
+        {
+            "sliderImage":"/images/AboutUsImages/sec-slide-three.webp"
+            
+        },
+
+        {
+          "sliderImage":"/images/AboutUsImages/sec-slide-four.webp"
+        }
+        
+    ]
+  }

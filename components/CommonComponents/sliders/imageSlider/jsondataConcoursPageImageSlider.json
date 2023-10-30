@@ -1,0 +1,22 @@
+{
+    "slidepictures" : [
+        {
+          "sliderImage":"/images/ConcourImages/imageone.webp"
+          
+        },
+
+        {
+          "sliderImage":"/images/ConcourImages/imagetwo.webp"
+        },
+
+        {
+            "sliderImage":"/images/ConcourImages/imagethree.webp"
+            
+        },
+
+        {
+          "sliderImage":"/images/ConcourImages/imagefour.webp"
+        }
+        
+    ]
+  }

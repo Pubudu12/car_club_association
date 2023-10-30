@@ -1,0 +1,22 @@
+{
+    "slidepictures" : [
+        {
+          "sliderImage":"/images/sportingPage/sportingImageOne.png"
+          
+        },
+
+        {
+          "sliderImage":"/images/sportingPage/sportingImageTwo.png"
+        },
+
+        {
+            "sliderImage":"/images/sportingPage/sportingImageThree.png"
+            
+        },
+
+        {
+          "sliderImage":"/images/sportingPage/sportingImageFour.png"
+        }
+        
+    ]
+  }

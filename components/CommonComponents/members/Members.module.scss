@@ -1,0 +1,69 @@
+
+.memberCard .memberCardImage{
+    width: 50% !important;
+    height: fit-content;
+}
+
+.memberCardText{
+min-height: 110px;
+
+}
+.memberCard .memberImageMainDiv:hover{
+    transform: scale(1.2);
+    transition-delay: 1s;
+    transition: 300ms ease-in-out;
+}
+.memberCardImage{
+    // z-index: 1;
+}
+
+// .memberImageMainDiv  {
+//     background: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0.9));
+// }
+
+.memberCardText h3{
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+.memberCardText p{
+    color: #9E1B32;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.memberCardText .CardTelephoneNo {
+    display: none;
+    color: #111111;
+    font-weight: 500;
+    font-size: 18px;
+    opacity: 50%;
+}
+
+.memberCardText .CardTelephoneNo::before{
+    content:url('/images/ContactUs/Call.svg');
+    padding-right: 0.5rem;
+}
+
+.memberCard:hover .CardTelephoneNo{
+    display: block;
+}
+
+// -------------------------------------Responsivness-------------------------------------------
+@media (min-width:375px) and (max-width:600px) {
+    .memberCardText h3{
+        font-size: 15px;
+    }
+    .memberCardText p{
+        font-size: 15px;
+    }
+    .memberCardText .CardTelephoneNo {
+        font-size: 14px;
+    }
+    
+}

@@ -1,0 +1,60 @@
+.findBtn {
+  bottom: 7rem;
+}
+
+.headerpara p {
+  width: 55%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #111111;
+  // opacity: 0.8;
+}
+
+@media (min-width: 1366px) and (max-width: 1536px) {
+  .findBtn {
+    left: 2rem;
+    bottom: 8rem;
+  }
+  .headerpara p {
+    width: 75%;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1279px) {
+  .findBtn {
+    left: 5.5rem;
+    bottom: 5rem;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .findBtn {
+    left: 0rem;
+    bottom: 5rem;
+  }
+  .headerpara p {
+    width: 70%;
+    font-weight: 400;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .findBtn {
+    left: 0rem;
+    bottom: 3rem;
+  }
+
+  .headerpara p {
+    width: 80%;
+  }
+}
+@media (min-width: 200px) and (max-width: 600px) {
+  .findBtn {
+    bottom: 0rem;
+  }
+
+  .headerpara p {
+    width: 80%;
+    font-size: 16px;
+    line-height: 130%;
+  }
+}

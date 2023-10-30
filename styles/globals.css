@@ -1,0 +1,409 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;   
+  /* @apply font-raleway; */
+}
+
+
+/* html,body {
+  height:100%;
+  width:100%;
+  margin:0%;
+  padding:0%;
+  overflow-x: hidden;
+} */
+
+
+
+@font-face {
+  font-family: "Raleway Italic"; 
+  src:url("/assets/fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf") 
+  format("truetype");
+  font-display: swap;
+} 
+
+@font-face {
+  font-family: "Raleway Variable"; 
+  src:url("/assets/fonts/Raleway/Raleway-VariableFont_wght.ttf") 
+  format("truetype");
+  font-display: swap;
+} 
+
+@font-face {
+  font-family: "Inter Black"; 
+  src:url("/assets/fonts/Inter/Inter-Black.ttf") 
+  format("truetype");
+  font-display: swap;
+} 
+
+@font-face {
+  font-family: "Inter Bold"; 
+  src:url("/assets/fonts/Inter/Inter-Bold.ttf") 
+  format("truetype");
+  font-display: swap;
+} 
+
+@font-face {
+  font-family: "Inter ExtraBold"; 
+  src:url("/assets/fonts/Inter/Inter-ExtraBold.ttf") 
+  format("truetype");
+  font-display: swap;
+} 
+
+@font-face {
+  font-family: "Inter ExtraLight"; 
+  src:url("/assets/fonts/Inter/Inter-ExtraLight.ttf") 
+  format("truetype");
+  font-display: swap;
+} 
+
+@font-face {
+  font-family: "Inter Light"; 
+  src:url("/assets/fonts/Inter/Inter-Light.ttf") 
+  format("truetype");
+  font-display: swap;
+} 
+
+@font-face {
+  font-family: "Inter Medium"; 
+  src:url("/assets/fonts/Inter/Inter-Medium.ttf") 
+  format("truetype");
+  font-display: swap;
+} 
+
+@font-face {
+  font-family: "Inter Regular"; 
+  src:url("/assets/fonts/Inter/Inter-Regular.ttf") 
+  format("truetype");
+  font-display: swap;
+} 
+
+@font-face {
+  font-family: "Inter SemiBold"; 
+  src:url("/assets/fonts/Inter/Inter-SemiBold.ttf") 
+  format("truetype");
+  font-display: swap;
+} 
+
+@font-face {
+  font-family: "Inter Thin"; 
+  src:url("/assets/fonts/Inter/Inter-Thin.ttf") 
+  format("truetype");
+  font-display: swap;
+} 
+
+.font-Raleway-Italic {
+  font-family: "Raleway Italic"
+}
+
+.font-Raleway-variableFont {
+  font-family: 'Raleway Variable'
+}
+
+.font-Inter-black {
+  font-family: 'Inter Black'
+}
+
+.font-Inter-bold {
+  font-family: 'Inter Bold'
+}
+
+.font-Inter-extrabold {
+  font-family: 'Inter ExtraBold'
+}
+
+.font-Inter-extralight {
+  font-family: 'Inter ExtraLight'
+}
+
+.font-Inter-medium {
+  font-family: 'Inter Medium';
+}
+
+.font-Inter-Regular {
+  font-family: 'Inter Regular';
+}
+
+.font-Inter-SemiBold {
+  font-family: 'Inter SemiBold'
+}
+
+.font-Inter-Thin {
+  font-family: 'Inter Thin'
+}
+
+p {
+  font-weight: 400;
+  font-feature-settings: 'salt' on, 'liga' off;
+  font-family: 'Inter Regular';
+}
+
+h1{
+  font-size: 38px;
+  font-feature-settings: 'salt' on, 'ss02' on, 'ss03' on, 'ss05' on, 'ss08' on, 'ss09' on, 'liga' off;
+  font-family: 'Raleway Variable';
+}
+
+:root {
+  --text-color: #73737b;
+  --text-light: #888888;
+  --heading: #101621;
+  --bg-black:#141414;
+  --black:#000000;
+  --white:#ffffff;
+}
+
+.text{
+    color: var( --text-color);
+}
+
+.container {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+#LeftOffsetSlider .slick-slide{
+  padding-right: 10px;
+} 
+
+.pt-top{
+  padding-top: 8rem;
+}
+
+.background{
+  background-image: url('../public/images/homePage/backgroundImages/bg_models.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+.clubEventBackground{  
+  background-image: url('../public/images/homePage/backgroundImages/clubEvents.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding-bottom: 5rem;
+}
+
+.parallax{
+  background-image: url('../public/images/homePage/backgroundImages/clubEvents.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
+}
+
+.sportingmk1parallx{
+  background-image: url('../public/images/sportingPage/sportingmk1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.displayOnMobile{
+  display: none;
+}
+
+.displayOnTabletAndMobile{
+  display: none;
+}
+
+.redirectHover .icon svg:hover{
+	color: white !important;
+}
+
+.fontFeatureSetting{
+  font-feature-settings: 'salt' on, 'liga' off;
+}
+
+.pageLinksColumns2{
+  column-count: 2;
+  column-gap: 10px;
+}
+
+.pageLinksColumns3{
+  column-count: 3;
+  column-gap: 10px;
+}
+
+/* .white-text-padding .hero-white-text{
+  padding: 1rem 0rem !important;
+} */
+
+.h-100{
+  height: 100% !important;
+}
+
+@media screen and (max-width:991px) {
+  .displayOnTabletAndMobile{
+    display: block;
+  }
+  .displayHeaderOnDekstop{
+    display: none;
+  }
+}
+
+
+@media screen and (max-width:640px) {
+  h1{
+    font-size: 24px;
+  }
+
+  .redirectMobFont a{
+    font-size: 15px;
+  }
+
+  .displayOnDekstop{
+    display: none;
+  }
+
+  .displayHeaderOnDekstop{
+    display: none;
+  }
+
+  .displayOnMobile{
+    display: block !important;
+  }
+
+  .centerRedirectButton a{
+    justify-content: center;
+  }
+  .pageLinksColumns2,.pageLinksColumns3{
+    column-count: 1;
+  }
+
+  #clubNoticeBoard{
+    background: #a19f9f54;
+  }
+}
+
+@media (min-width:1024px) {
+  .lg-relative{
+    position: relative !important;
+  }
+}
+
+.calendarView div:nth-child(2){
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.seperatorLists{
+  display: flex;
+  justify-content: center;
+}
+
+.smallSeperators #seperataDot .listdots li a::after {
+  padding: 5px !important;
+}
+
+.active-link {
+  color: #9E1B32 !important;
+}
+
+.toastui-calendar-section-button{
+  display: none;
+}
+
+
+
+/* ------------------------------------------------------ */
+
+.calendar ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: left;
+    z-index: 1;
+}
+
+.calendar .days{
+    margin-bottom: 20px;
+}
+
+.calendar li{
+    color: #333;
+    width: calc(100% / 7);
+   
+}
+
+.calendar .weeks li{
+    font-weight: 500;
+    cursor: default;
+    background: white;
+    padding: 0.6rem 0 0.6rem 0.5rem;
+}
+
+.calendar .days li{
+    /* z-index: 1; */
+    position: relative;
+    padding: 0.6rem 0 4rem 0.5rem;
+    background: white;
+    border-left: 1px solid #ececec;
+    border-top: 1px solid #ececec;    
+}
+
+.calendar .days li:nth-child(7n+1) {
+    border-left: none; 
+}
+
+.days li.inactive{
+    color: #7c7a7a;
+    background: #eeeeee;
+}
+
+.days li.active{
+    color: #9E1B32; 
+    border: 1px solid #9E1B32;
+    background: #FD7E9417;  
+}
+
+.events{
+    color: white;
+    background: #367bec;
+    border-radius: 4px;
+    font-size: 0.8rem;
+}
+
+.calendar_dot{
+    background-color: #367bec;
+    border-radius: 50%;
+    float: left;
+    height: 8px;
+    position: relative;
+    top: 8px;
+    width: 8px;
+    margin-right: 3px;
+}
+
+.nextPrevButtons{
+    padding: 0.3rem 1.2rem;
+    background-color: white;
+    border: 1px solid #ececec;
+}
+
+.nextPrevButtons svg{
+    height: 1rem;
+    color: #afaeae;
+}
+
+.directions select{
+    padding: 0.4rem 1.2rem;
+    background-color: white;
+    border: 1px solid #ececec;
+}
+
+/* TUI calendar customizations */
+.tui-full-calendar-layout{
+  order: 2 !important;
+}

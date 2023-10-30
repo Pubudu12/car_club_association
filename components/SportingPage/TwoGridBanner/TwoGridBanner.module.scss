@@ -1,0 +1,49 @@
+
+.bannerOne{
+    position: relative;
+    height: auto;
+    padding-bottom: 3rem;
+}
+
+.bannerOne::before{
+    content: "";
+    opacity: 50%;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-image:url('../../../public/images/sportingPage/gridTwoImageOne.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bannerOne:hover::before, .bannerTwo:hover::before{
+    opacity: 100%;
+}
+
+.bannerTwo{
+    position: relative;
+}
+
+.bannerTwo::before{
+    content: "";
+    opacity: 50%;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-image:url('../../../public/images/sportingPage/gridTwoImageTwo.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bannerCenterText{
+    position: relative;
+    height: auto;
+}
+
+// --------------------------------------------------Responsivness------------------------------------------
+

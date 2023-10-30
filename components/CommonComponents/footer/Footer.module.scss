@@ -1,0 +1,49 @@
+.footer {
+  // font-size: 15px;
+  width: 100%;
+  // color: #a0a0a0;
+  color: black;
+}
+
+.footer div,
+.footer h4,
+.footer ul li {
+  font-family: "Inter Regular";
+  font-feature-settings: "salt" on, "liga" off;
+}
+
+.footerTitle {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.topic_bottom_border {
+  border-top: 2px solid #b34e60;
+  width: 20%;
+  display: block;
+}
+
+.footer_allRightsReserved {
+  color: #a0a0a0;
+}
+
+.text_peach {
+  color: #f1634c;
+}
+
+@media screen and (max-width: 640px) {
+  .mb_footer_outer {
+    text-align: center !important;
+  }
+
+  .footer ul li:last-child {
+    margin-bottom: 20px;
+  }
+
+  .topic_bottom_border {
+    left: calc(50% - 10%);
+    position: relative;
+  }
+}
+
+

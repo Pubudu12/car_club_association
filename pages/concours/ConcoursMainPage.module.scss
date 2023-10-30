@@ -1,0 +1,40 @@
+
+
+@media (min-width: 1536px) and (max-width: 1979px) {
+    .ConcoursRedirectButton{
+        right:42rem ;
+        bottom: 7rem;
+    }
+}
+@media (min-width: 1366px) and (max-width: 1536px) {
+    .ConcoursRedirectButton{
+        right:24.5rem ;
+        bottom: 5rem;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1279px) {
+    .ConcoursRedirectButton{
+        right: 21.5rem ;
+        bottom: 3rem;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1199px) {
+    .ConcoursRedirectButton{
+        right: 16rem ;
+        bottom: 3rem;
+
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    .ConcoursRedirectButton{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 600px) {
+    .ConcoursRedirectButton{
+        display: flex;
+        justify-content: center;
+    }
+}

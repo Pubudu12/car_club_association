@@ -1,0 +1,74 @@
+.smallCardOuter{
+    background: rgba(255, 255, 255, 0.4);
+    // padding: 10px;
+    border: 1px solid white;
+    display: flex;
+    font-family: 'Inter SemiBold';
+    text-transform: uppercase;
+}
+.dateSection{
+    padding: 10px 20px;
+    background: #E9E9E9;   
+}
+.onhoverimage{
+    display: none;
+}
+
+.eventLink .onhoverimage{
+    transition: 1.2ms ease-in;
+}
+
+.eventLink:hover .onhoverimage{
+    display: block !important; 
+
+}
+
+.smallCardOuter:hover{
+    border: 1px solid #9E1B32;
+}
+
+.smallCardOuter:hover .dateSection {
+    background: #ffffff;
+}
+.smallCardOuter:hover .dateSection span {
+    color: #9E1B32;
+}
+// .smallCardOuter::after{
+//     content: '>';
+//     align-items: center;
+//     align-content: center;
+//     padding-right: 2rem;
+//     color: #9E1B32;
+//     display: flex;
+// }
+.eventName{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.month {
+    font-size: 18px;
+}
+
+.day {
+    font-size: 40px;
+}
+
+
+@media screen and (max-width:640px) {
+    .dateSection, .eventName{
+        padding: 6px 15px;
+    }
+
+    .month {
+        font-size: 15px;
+    }
+    
+    .day {
+        font-size: 32px;
+    }
+}
+
+

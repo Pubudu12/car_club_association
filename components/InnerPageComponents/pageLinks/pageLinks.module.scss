@@ -1,0 +1,27 @@
+.mainTitle {
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  color: #9e1b32;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.introParagraph {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #111111;
+  opacity: 0.8;
+}
+
+.masonaryGrid{
+  margin: 0; 
+  display: grid;
+  grid-template-rows: 1fr auto;
+  margin-bottom: 10px;
+  break-inside: avoid;
+}
+

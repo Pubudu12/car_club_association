@@ -1,0 +1,53 @@
+.outerBreadcrumb{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;    
+    font-family: "Raleway Variable";
+    font-feature-settings: 'pnum' on, 'lnum' on, 'salt' on, 'ss02' on, 'ss03' on, 'ss05' on, 'ss08' on, 'ss09' on, 'liga' off;
+}
+
+.outerBreadcrumb .linkBreadCrumb:not(:last-child){
+    // color: rgba(71, 70, 70, 0.589);
+    color: black;
+    // opacity: 0.4;
+}
+
+.iconStyle{
+    color: #9E1B32;
+    height: 10px;
+}
+
+.outerBreadcrumb div:last-child .iconStyle{
+    display: none;
+}
+
+.outerBreadcrumb div:last-child .linkBreadCrumb {
+  color: #9E1B32 !important;
+}
+
+.breadcrumbStyles li a, .breadcrumbStyles li span{
+    font-size: 18px;
+    font-family: "Raleway Variable";
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  
+  .breadcrumbStyles li svg{
+    height: 18px;
+  }
+  
+  .breadcrumbStyles li a{
+    color: black;
+    // opacity: 0.4;
+  }
+  
+  .breadcrumbStyles li span{
+    color: #9E1B32;
+  }
+  @media (min-width:200px) and (max-width: 600px){
+    .outerBreadcrumb{
+      text-align: center;
+    }
+  }

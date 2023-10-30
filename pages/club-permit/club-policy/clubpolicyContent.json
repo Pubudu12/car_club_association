@@ -1,0 +1,44 @@
+{ 
+    "stepthree":[
+        {
+            "title":" The Club operates the CPS under the rules contained within <b>its Deed of Agreement with VicRoads. It is essential that Members and prospective Members read this document before renewing a Club Permit or applying for a new one as there are many rules that apply to this scheme.</b>",
+            "childAvailable":false
+        },
+        {
+            "title":"  The JCCV accepts only a current Victorian Roadworthy Certificate as certification of vehicle safety for eligibility under the CPS ",
+            "childAvailable":false
+        },
+        {
+            "title":"The Club Committee endorses the Club Permit Officer (CPO) as the Authorised Officer to administer the operation of this scheme.",
+            "childAvailable":false
+        },
+        {
+            "title":"A CPS permit holder must be a financial or Life Member of the Club and the permit must be held in the name of the financial or Life Member.",
+            "childAvailable":false
+        } ,
+        {
+            "title":"A Member must be a Member of the Club for a minimum of 30 days before being eligible to apply for a Club Permit under the Club's CPS for a Jaguar",
+            "childAvailable":false
+        } ,
+        {
+            "title":"The Club provides this scheme in support of the objectives of the Club as set out in the Club's Constitution (for example, preservation of the Jaguar marque)",
+            "childAvailable":false    
+        } ,
+        {
+            "title":"The responsibility for advising VicRoads and the Club Permit Officer of any changes of particulars with relation to the permit holder (e.g. change of address) or the vehicle (e.g. change of colour, engine etc.) rests with the permit holder.",
+            "childAvailable":false
+        } ,
+        {
+            "title":" There is no limit on the number of Jaguars that a Member may include on this scheme but a Club Permit is required for each.",
+            "childAvailable":false
+        } ,
+        {
+            "title":" Non-Jaguars, Motorbikes, Motorhomes, Caravans or Historic Commercial Vehicles are not permitted under the Club's CPS.",
+            "childAvailable":false    
+        } ,
+        {
+            "title":"If any dispute arises with regard to the Club's operation of the CPS that is not covered by VicRoads legislation or the AOMC guidelines then the matter is to be brought before the Club Committee. The decision of the Club Committee shall in such a case be final and binding on the Club and the Member. ",
+            "childAvailable":false
+        } 
+    ]
+}

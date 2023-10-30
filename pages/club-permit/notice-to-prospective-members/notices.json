@@ -1,0 +1,79 @@
+{ 
+    "itemset":[
+        {
+            "TitleAvailabe":false,
+            "title":"",
+            "childAvailable":false,
+            "SecondTitleAvailabe":true,
+            "SecondTitle":"The Club Permit Scheme (CPS) allows members of the JCCV to have limited use of historic vehicles on the road network. Vehicles must be at least 25 years old to participate in the scheme. You MUST be a member of the JCCV for a minimum of 30 days before being eligible to apply for a Club Permit under the Club's CPS for a Jaguar and 12-months for a non-Jaguar. Financial members of the JCCV are able to apply for either a 45 or 90 day permit depending on how much use they expect to make of their vehicles over a 12 month period. It is essential that members and prospective members read the club's Club Permit Policy before submitting an application ",
+
+            "innerText":[
+                
+
+              
+            ]
+           
+               
+        },
+        {
+                        
+            "TitleAvailabe":false,
+
+            "title":"",
+            "childAvailable":true,
+            "SecondTitleAvailabe":true,
+            "SecondTitle":"<b>Prospective Members applying for Membership of the Club for the purpose of operating a vehicle under the CPS should note the following:</b>",
+
+            "innerText":[
+                {
+                    "step":"Please allow ample time to allow your Club membership to be processed in the normal course of Club business."
+                },
+                {
+                    "step":"Applicants for a CPS permit should be aware that Victorian roadworthy certificates typically have a validity of 30 days. This should be taken into account as well as ensuring that the minimum membership period, identified above, is satisfied before submitting your application for the CPS permit."
+                },
+                {
+                    "step":"  The Club Committee and Permit Officers are all volunteers and are here to help, please treat them with the same courtesy that you would like returned to you."
+                },
+                {
+                    "step":"Follow the conditions of use for club permit vehicles."
+                }
+                
+
+              
+            ]
+           
+               
+        },
+        {
+                        
+            "TitleAvailabe":false,
+
+            "title":"",
+            "childAvailable":true,
+            "SecondTitleAvailabe":true,
+            "SecondTitle":"<b>PLEASE NOTE:</b> given the significant benefits and modest fees of the CPS, abuse of the scheme could result in far reaching implications to the individual, the Club and the permit scheme in general, such as;",
+
+            "innerText":[
+                {
+                    "step":"Fines for driving an unregistered vehicle"
+                },
+                {
+                    "step":" Loss of an individual's Club Permit "
+                },
+                {
+                    "step":"  Loss of the Club's authority to operate the CPS"
+                },
+                {
+                    "step":" Cancellation of the CPS for all enthuisiasts "
+                }
+                
+
+              
+            ]
+           
+               
+        }
+
+
+    ]
+}

@@ -1,0 +1,100 @@
+.maintitle{
+    color: black;
+    font-size: 40px;
+}
+
+
+.maintitlediv .maintitle{
+    width: 46%;
+    line-height: 140%;
+}
+.maintitle span{
+    font-weight: 700;
+    color: #111111;
+}
+
+.headerpara p{
+    width: 55%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #111111;
+    // opacity: 0.8;
+}
+
+.firstBannerOuter{
+    background-image:url('../../../public/images/sportingPage/Section-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    height: auto;
+    padding: 3rem;
+}
+
+// -----------------------------media query -------------------------------------
+
+@media (min-width: 1280px) and (max-width: 1535px) {
+    .maintitlediv .maintitle{
+        width: 65%;
+    }
+    .headerpara p{
+        width: 75%;
+    }
+ }
+
+ @media (min-width: 1024px) and (max-width: 1200px) {
+    .maintitlediv .maintitle{
+        width: 78%;
+    }
+    .headerpara p{
+        width: 70%;
+        font-weight: 400;
+    }
+    .maintitle{
+        font-size: 36px;
+    }
+ }
+
+
+ @media (min-width: 768px) and (max-width: 1023px) {
+    .maintitle{
+        font-size: 32px;
+    }
+    .maintitlediv .maintitle{
+        width: 60%;
+    }
+    .headerpara p{
+        width: 80%;
+    }
+    
+ }
+
+ @media (min-width: 375px) and (max-width: 600px){
+    .maintitle{
+        font-size: 24px;  
+    }
+    .maintitlediv .maintitle{
+        width: 80%;
+    }
+    .headerpara p{
+        width: 80%;
+        font-size: 16px;
+        line-height: 130%;
+    }
+ }
+
+ @media (min-width: 300px) and (max-width: 374px){
+    .maintitle{
+        font-size: 24px;  
+    }
+    .maintitlediv .maintitle{
+        width: 80%;
+    }
+    .headerpara p{
+        width: 80%;
+        font-size: 16px;
+        line-height: 130%;
+    }
+ }

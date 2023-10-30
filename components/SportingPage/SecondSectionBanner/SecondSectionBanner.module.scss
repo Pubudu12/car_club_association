@@ -1,0 +1,18 @@
+.secondBannerOuter{
+    background-image:url('../../../public/images/sportingPage/Section-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    height: auto;
+    padding: 3rem;
+}
+
+@media (min-width:365px) and (max-width:600px)
+ {
+    .secondBannerOuter{
+        background-image:url('../../../public/images/sportingPage/Section-2-Mobile.webp');
+        padding: 0%;
+        background-size: cover;
+    }
+}

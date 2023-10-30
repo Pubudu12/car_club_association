@@ -1,0 +1,56 @@
+{ 
+    "itemset":[
+        {                        
+            "TitleAvailabe":false,
+            "title":"",
+            "childAvailable":true,
+            "SecondTitleAvailabe":true,
+            "SecondTitle":"<b>The JCCV only acts as a venue for sellers to list cars and parts and buyers to purchase cars and parts. The club is not involved in any transaction between buyers and sellers and have no control or make no representation regarding;</b>",
+            "innerText":[
+                {
+                    "step":"the quality, or safety of the items advertised,"
+                },
+                {
+                    "step":"the accuracy of the ads,"
+                },
+                {
+                    "step":"  the ability of owners to sell items"
+                },
+                {
+                    "step":"the ability of buyers to buy items."
+                }
+            ]
+        },
+        {               
+            "TitleAvailabe":false,
+            "title":"",
+            "childAvailable":false,
+            "SecondTitleAvailabe":true,
+            "SecondTitle":"The advertisement details are contain information supplied by the advertiser and are presented in good faith. While every effort is made to be accurate, the JCCV gives no undertaking and accepts no liability with regard to any classified advertisement.",
+
+            "innerText":[]
+        },
+        {                        
+            "TitleAvailabe":false,
+            "title":"",
+            "childAvailable":true,
+            "SecondTitleAvailabe":true,
+            "SecondTitle":"<b>Advertisements of vehicles for private sale on the JCCV Website are required under the current Motor Traders Act to show;",
+
+            "innerText":[
+                {
+                    "step":"The cash price of the vehicle,"
+                },
+                {
+                    "step":"the accuracy of the ads,"
+                },
+                {
+                    "step":"  If the vehicle is registered, the registration number (this does NOT include vehicles on VicRoads Club Permit Scheme Plates as the Vehicles Security Registry does not include these.) "
+                },
+                {
+                    "step":"If the vehicle is not registered (including those on VicRoads Club Permit Scheme), the engine number, chassis number or VIN of the vehicle."
+                }
+            ]  
+        }
+    ]
+}

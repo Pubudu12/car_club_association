@@ -1,0 +1,30 @@
+.imageSmall{
+    display: none !important;
+}
+.tabImage{
+    display: none !important;
+}
+
+@media only screen and (max-device-width: 640px) {
+    .imageLarge {
+      display: none !important;
+    }
+    .tabImage{
+      display: none !important;
+    }
+    .imageSmall {
+      display: block !important;
+    }
+}
+
+@media (min-width:641px) and (max-width: 911px) {
+  .imageLarge {
+    display: none !important;
+  }
+  .imageSmall {
+    display: none !important;
+  }
+  .tabImage{
+    display: block !important;
+  }
+}

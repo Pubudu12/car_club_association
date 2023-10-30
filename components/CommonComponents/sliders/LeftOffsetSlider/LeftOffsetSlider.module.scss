@@ -1,0 +1,39 @@
+.background{
+    background-image: url('../../../../public/images/homePage/backgroundImages/bg_models.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+}
+
+.outerSlider{
+    // width: 1500px;
+    // margin: 0 auto;
+}
+
+.item{
+    background: rgba(255, 255, 255, 0.39);
+}
+
+.itemTitle{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Inter Regular';
+}
+
+.details{
+    padding: 10px 14px;
+}
+
+@media screen and (max-width:640px){
+    .background{
+        height: 120vh
+    }
+}
+
+@media (min-width:641px) and (max-width:941px){
+    .background{
+        height: 70vh
+    }
+}

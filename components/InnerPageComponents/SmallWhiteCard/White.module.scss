@@ -1,0 +1,15 @@
+.item {
+    background: rgb(255, 255, 255);
+    max-width: 100%;
+    transition: ease-in-out 0.3s;
+    height: 100%;
+    position: relative;
+    border: 2px solid rgba(158, 27, 50, 0.1);
+
+}
+
+@media screen and (max-width:640px) {
+    .item {
+        align-items: center;
+    }
+}

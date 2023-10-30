@@ -1,0 +1,61 @@
+.mainTitle{
+    // font-family: 'Raleway Variable';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+    color: #111111;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;   
+    padding-bottom: 1rem;
+    font-feature-settings: 'pnum' on, 'lnum' on, 'salt' on, 'ss02' on, 'ss03' on, 'ss05' on, 'ss08' on, 'ss09' on, 'liga' off;
+}
+.secondTitle{
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    // font-family: 'Raleway Variable';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    color: #9E1B32;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.blackTitle{
+    font-family: 'Inter Regular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    display: inline;
+    opacity: 0.9;
+    font-feature-settings: 'salt' on, 'liga' off;
+}
+
+.boldParaText{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    color: #111111;
+    letter-spacing: 0.05em; 
+    
+}
+@media screen and (min-width: 380px) and (max-width: 700px) {
+    .mainTitle{
+       font-size: 32px !important;
+
+    }
+    .secondTitle{
+        font-size: 20px;
+    }
+  }
+
+  @media screen and (max-width:320px){
+    .mainTitle{
+        font-size: 30px !important;
+ 
+     }
+     .secondTitle{
+         font-size: 20px;
+     }
+  }
+ 

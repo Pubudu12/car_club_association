@@ -1,0 +1,64 @@
+.stateFullMap {
+  margin-top: 5%;
+}
+.stateFullMap svg {
+  width: 624px;
+  height: 441px;
+}
+.stateFullMap path:hover {
+  fill: #A71340 !important;
+}
+.memberImage{
+  width: 30% !important;
+  height: fit-content;
+}
+.regionsTelephoneNo{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 10%;
+  color: #111111;
+  display: flex;
+  align-items:center ;
+}
+.regionsTelephoneNo::before{
+  content:url('/images/ContactUs/Call.svg');
+    padding-right: 0.5rem;
+}
+
+.modelTelephone::before{
+  content:url('/images/ContactUs/Call.svg');
+  padding-right: 0.5rem;
+}
+
+.verticalScroll{
+  float: left;
+  width: 100%;
+  overflow-y: auto;
+  height: 20rem;
+}
+
+
+// ------------------------------------------Responsivness----------------------------------------------------------
+@media (min-width: 768px) and (max-width: 1023px){
+
+.stateFullMap {
+        margin-left: 3%;
+        margin-top: 7%;
+      }
+}
+
+@media (min-width: 375px) and (max-width: 600px) {
+    .stateFullMap {
+        // margin-left: 3%;
+        margin-top: 0%;
+
+      }
+      .stateFullMap svg {
+        width: 324px;
+        height: 300px;
+      }
+      .redirectButtonPosition a{
+        display: flex;
+        justify-content: center !important;
+      }
+}

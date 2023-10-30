@@ -1,0 +1,50 @@
+{ 
+    "itemset":[
+        {
+            "TitleAvailabe":true,
+            "title":" A club permit can be issued to the following vehicles in the following categories.",
+            "childAvailable":true,
+            "SecondTitleAvailabe":false,
+            "SecondTitle":"",
+
+            "innerText":[
+                {
+                    "step":" Veteran vehicles – manufactured before 1 January 1919"                   
+                },
+                {                    
+                    "step":"A club permit can be issued to the following vehicles in the following categories. Veteran vehicles – manufactured before 1 January 1919 Vintage vehicles – manufactured after 31 December 1918 and before 1 January 1931"  
+                },
+                {
+                    "step":" Classic and Historic vehicles - manufactured after 31 December 1930, but more than 25 years before the date of the application for a club permit."  
+                },
+                {                    
+                    "step":"These categories can include trailers, heavy vehicles, left hand drive vehicles and modified vehicles such as street rods. Replicas of vehicles in the categories above may also be issued with a club permit. Please note the specific exclusions of the Jaguar Car Club for Motorbikes, Motorhomes, Caravans and Historic Commercial Vehicles"  
+                }
+            ]                          
+        },
+        {
+            "TitleAvailabe":true,
+            "title":" A club permit cannot be issued to: ",
+            "childAvailable":true,
+            "SecondTitleAvailabe":false,
+            "SecondTitle":"",
+            "innerText":[
+                {
+                    "step":" a vehicle that is recorded on the Victorian or an interstate Written-off Vehicles Register as a statutory write-off"                   
+                },
+                {                    
+                    "step":"a vehicle that has a sheriff's office or hoon sanction "  
+                },
+                {                    
+                    "step":"A vehicle that is recorded as stolen."                   
+                },
+                {                    
+                    "step":"affix the allocated Club Permit number plates to your vehicle Follow the conditions of use for club permit vehicles."  
+                },
+                {                    
+                    "step":"Please note a vehicle can only have a full current registration or a club permit – not both"  
+                }
+            ]           
+        }
+    ]
+}

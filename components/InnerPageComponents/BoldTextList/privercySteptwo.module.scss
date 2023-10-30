@@ -1,0 +1,41 @@
+.normalcontent{
+    font-family: 'Inter Regular';
+    color: #000000;
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 0.5rem;
+    opacity: 0.9;
+    padding-bottom: 0.125rem;
+    font-feature-settings: 'salt' on, 'liga' off;
+}
+.blackTitle{
+    // font-family: 'Inter Thin';
+    font-family: 'Inter Bold';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    display: inline;
+    font-feature-settings: 'salt' on, 'liga' off;
+}
+.parecontent{
+    // font-family: 'Inter Thin' !important;
+    font-family: 'Inter Regular';
+    font-size: 16px;
+    color: #111111;
+    padding-top: 0.5rem;
+    opacity: 0.9;
+    padding-bottom: 0.125rem;
+    font-weight: 500;
+    font-feature-settings: 'salt' on, 'liga' off;
+}
+.titlesec{
+    color: #111111;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 0.5rem;
+    opacity: 0.9;
+    padding-bottom: 0.125rem;
+}
+.redtext{
+    color: #9E1B32;
+}

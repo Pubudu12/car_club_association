@@ -1,0 +1,25 @@
+{
+    "slidepictures" : [
+        {
+          "sliderImage":"/images/AboutUsImages/slide-one.webp"
+          
+        },
+
+        {
+          "sliderImage":"/images/AboutUsImages/slide-two.webp"
+        },
+
+        {
+            "sliderImage":"/images/AboutUsImages/slide-three.webp"
+            
+        },
+
+        {
+          "sliderImage":"/images/AboutUsImages/slide-four.webp"
+        }
+       
+        
+    ]
+  }
+
+  

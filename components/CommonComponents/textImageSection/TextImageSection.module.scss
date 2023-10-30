@@ -1,0 +1,165 @@
+.singleproblemcomp {
+    padding: 60px 0;
+}
+
+.screenholderoneind {
+  width: auto !important;
+  height: 100% !important;
+}
+
+
+
+.outterDiv .oddAlignment:nth-of-type(odd) div:nth-of-type(1) {
+    order: 1;
+    padding-left: 2rem;
+
+    h3{
+      padding-left: 2rem;
+    }
+}
+
+.outterDiv .evenAlignment:nth-of-type(odd) div:nth-of-type(1) {
+    order: 1;
+    padding-left: 2rem ;
+
+    h3{
+      padding-left: 2rem;
+    }
+}
+ 
+  .contentheading{
+    width: 90%;
+  }
+  .contentheading h3{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+.contentheading p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #111111;
+    // opacity: 0.6;
+}
+.contentheading .resonatetext{
+    color: black;
+    font-weight: 700;
+}
+
+// -------------------------------------------------------Responsiveness---------------------------------------------------------
+
+
+@media (min-width: 1280px) and (max-width: 1535px) {
+  .singleproblemcomp {
+    padding: 60px 0;
+    justify-items: start;
+}
+
+.contentheading{
+  width: 86%;
+}
+.outterDiv .oddAlignment:nth-of-type(odd) div:nth-of-type(1) {
+  justify-items: center !important;
+  padding-left: 2rem;
+    h3{
+      padding-left: 2rem;
+    }
+}
+
+.outterDiv .evenAlignment:nth-of-type(odd) div:nth-of-type(1) {
+  padding-left: 2rem;
+  h3{
+    padding-left: 2rem;
+  }
+  
+}
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+  .contentheading{
+    width: 98%;
+  }
+  .contentheading p{
+    line-height: 128%;
+  }
+  .contentheading h3{
+    font-size: 32px;
+  }
+  .outterDiv .oddAlignment:nth-of-type(odd) div:nth-of-type(1) {
+    order: 1;
+    padding-left: 0rem;
+
+    h3{
+      padding-left: 0rem;
+    }
+}
+.outterDiv .evenAlignment:nth-of-type(odd) div:nth-of-type(1) {
+  order: 1;
+  padding-left: 1rem;
+
+  h3{
+    padding-left: 1rem;
+  }
+}
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+  .contentheading{
+    width: 100%;
+  }
+
+  .contentheading h3{
+    text-align: center;
+}
+.outterDiv .oddAlignment:nth-of-type(odd) div:nth-of-type(1) {
+  order: 1;
+  padding-left: 0rem;
+
+  h3{
+    padding-left: 0rem;
+  }
+}
+.outterDiv .evenAlignment:nth-of-type(odd) div:nth-of-type(1) {
+  order: 1;
+  padding-left: 0rem;
+
+  h3{
+    padding-left: 0rem;
+  }
+}
+}
+
+@media (min-width: 200px) and (max-width: 600px){
+  .singleproblemcomp {
+    padding: 15px 0;
+}
+  .contentheading{
+    width: 100%;
+  }
+  .contentheading h3{
+    font-size: 24px;
+    text-align: center;
+}
+.contentheading p{
+  font-size: 16px;
+  text-align: center;
+}
+.outterDiv .oddAlignment:nth-of-type(odd) div:nth-of-type(1) {
+  order: 1;
+  padding-left: 0rem;
+
+  h3{
+    padding-left: 0rem;
+  }
+}
+.outterDiv .evenAlignment:nth-of-type(odd) div:nth-of-type(1) {
+  order: 1;
+  padding-left: 0rem;
+
+  h3{
+    padding-left: 0rem;
+  }
+}
+}

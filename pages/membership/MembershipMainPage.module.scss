@@ -1,0 +1,43 @@
+
+.MembershipRedirectButton{
+    left:15rem ;
+    bottom: 5rem;
+}
+@media (min-width: 1440px) and (max-width: 1536px) {
+    .MembershipRedirectButton{
+        left:8rem ;
+        bottom: 7rem;
+    }
+}
+
+@media (min-width: 1366px) and (max-width: 1439px) {
+    .MembershipRedirectButton{
+        left:5rem ;
+        bottom: 6rem;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1279px) {
+    .MembershipRedirectButton{
+        left: 2.5rem ;
+        bottom: 6rem;
+     
+    }
+}
+@media (min-width: 1024px) and (max-width: 1199px) {
+    .MembershipRedirectButton{
+        left:3rem ;
+        bottom: 6rem;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    .MembershipRedirectButton{
+        left: 3rem ;
+        bottom: 3rem;
+    }
+}
+@media (min-width: 200px) and (max-width: 600px) {
+    .MembershipRedirectButton{
+        padding-bottom: 2rem;
+    }
+}
+

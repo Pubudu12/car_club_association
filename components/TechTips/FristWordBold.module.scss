@@ -1,0 +1,19 @@
+.title{
+    font-style: normal;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    font-size: 40px;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+@media screen and (max-width:640px){
+    .title{
+        font-size: 25px;
+    }
+}
+
+@media (min-width:641px) and (max-width:1023px){
+    .title{
+        font-size: 30px;
+    }
+}

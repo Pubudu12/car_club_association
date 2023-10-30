@@ -1,0 +1,87 @@
+
+.redirectOuter{
+    font-family: 'Inter Bold';
+    padding-left: 0rem !important;
+}
+
+.redirectbutton{
+    width: 100%;    line-height: 22px;
+    // font-weight: 500;
+    font-size: 16px;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.redirectbutton:hover{
+    color: #9E1B32;
+}
+.redirectbutton:hover::after
+{
+    padding-left: 1rem;
+    transition: ease-in-out 0.3s;
+}
+
+.redirectbutton::after{
+    content:"\003E";
+    top: -2px;
+    border-radius: 2rem;
+    position: absolute;
+    color: #9E1B32;
+    font-weight: 700;
+    font-size: 23px;
+    padding-left: 0.5rem;
+    border-radius: 2rem;
+}
+
+@media (min-width:200px) and (max-width:600px){
+
+.redirectbutton{
+    font-size: 14px;
+}
+// .redirectOuter{
+//    width: 100%;
+//    text-align: center;
+// }
+.redirectbutton::after{
+    top: -3px;
+    font-size: 19px;
+    padding-left: 0.3rem; 
+}
+.maindiv{
+    background-color: aqua;
+}
+}
+
+
+// testing
+.onHoverPadding:hover .leftAngle{
+    padding-left: 10px;
+}
+  
+
+// Fontawsome changes
+
+.redirectLink span {
+    transition: 0.3s ease-in;
+
+    
+}
+
+.redirectLink:hover span {
+    transform: translateX(60%);
+}
+
+.redirectLink:hover{
+    color: #9E1B32;
+    transition: 0.1s ease-in-out;
+}
+
+.icon svg{
+    display: inline;
+    align-items:center;
+    color: #9E1B32;
+    padding-top: 3px;
+    padding-bottom: 0.25rem;
+    text-align: center;
+}

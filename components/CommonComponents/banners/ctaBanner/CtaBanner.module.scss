@@ -1,0 +1,157 @@
+.ctabannerimage{
+    background-size: cover;
+    visibility: visible;
+}
+
+
+.banneroverlaytext h2{
+    width: 42%;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+.banneroverlaytext span{
+    font-weight: 600;
+}
+
+.banneroverlaybutton{
+    right: 15rem;
+    top: 5rem;
+    height: 100%;
+    width: 100%;
+}
+// New CTA banner 
+.bannerOuterLightGreen{
+    background-image: url('../../../../public/images/AboutUsImages/ctabanner.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    padding:5rem;
+}
+
+.bannerOuterCarDarkGreen{
+    background-image: url('../../../../public/images/sportingPage/sportingCTADesktop.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto; 
+    padding:5rem;
+}
+
+.bannerText{
+    font-size: 40px;
+}
+
+@media (min-width: 1536px) and (max-width: 1979px) {
+    .ctabannerimage{
+        visibility: visible;
+    }
+    .ctabannerimageMobile{
+        display: none;
+    }
+}
+
+@media (min-width: 1366px) and (max-width: 1536px) {
+    .ctabannerimage{
+        visibility: visible;
+    }
+    .ctabannerimageMobile{
+        display: none;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1365px) {
+
+    .ctabannerimage{
+        visibility: visible;
+    }
+    .ctabannerimageMobile{
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1279px) {
+
+    .ctabannerimage{
+        visibility: visible;
+    }
+    .ctabannerimageMobile{
+        display: none;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+    .ctabannerimage{
+        visibility: visible;
+    }
+    .ctabannerimageMobile{
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .banneroverlaytext h2{
+        width: 30%;
+        font-size: 27px;
+        line-height: 135%;
+        right: 5rem;
+        top: 3rem;
+        position: absolute;
+    }
+    
+
+    .banneroverlaybutton{
+        right: 13rem;
+        bottom: 1rem;
+    }
+
+    .ctabannerimage{
+        visibility: visible;
+    }
+
+    .ctabannerimageMobile{
+        display: none;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 600px) {
+    .bannerOuter{
+        padding: 0rem;
+    }
+    .ctabannerimage{
+        display: none;
+    }
+
+    .ctabannerimageMobile{
+        visibility: visible;
+    }
+
+    .bannerOuterLightGreen{
+        background-image: url('../../../../public/images/AboutUsImages/cta-banner-mobile.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .bannerOuterCarDarkGreen{
+        background-image: url('../../../../public/images/sportingPage/sportingCTAMobile.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .bannerText{
+        font-size: 30px;
+    }
+}
+
+

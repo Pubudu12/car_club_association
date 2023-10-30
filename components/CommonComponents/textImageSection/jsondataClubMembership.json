@@ -1,0 +1,17 @@
+{
+    "posts" : [
+        {
+          "lightTextOne":"your",
+          "highlightedTextOne":"club",
+          "lightText":" your",
+          "class":"",
+          "highlightedText":"jaguar ",
+          "lightTextTwo":"and you",
+          "highlightedTextTwo":"decide",
+          "paraTextone":"We have a strong social component and a less formal structure so that members can set their own schedules for events all year long, whether they are Sunday drives, technical sessions, or casual conversations about topics of personal interest.",
+          "paraTexttwo":"You have complete freedom to interact with other Jaguar enthusiasts in an open, friendly, accommodating, and helpful manner while imparting useful information about your cherished Jaguar.",
+          "mainImage":"/images/Membership/2nd-section-image.webp"
+        }
+        
+    ]
+  }

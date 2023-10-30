@@ -1,0 +1,66 @@
+
+.innerMainTitle{
+    color: #111111;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+}
+
+.innerMainSubTitle{
+    color: #9E1B32;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.backimg{
+    background-color: #f2f0f0;
+}
+
+.authorName{
+    color: #9E1B32;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.listcontent{
+    font-family: 'Inter Regular';
+    color: #111111;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 0.5rem;
+    opacity: 0.9;
+    padding-bottom: 0.125rem;
+    font-feature-settings: 'salt' on, 'liga' off;
+    
+}
+
+.listcontent b{
+    font-weight: 700;
+}
+
+.redtext{
+    color: #9E1B32;
+}
+.maxlistcontent{
+    font-family: 'Inter Regular';
+    color: #3e3d3d;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 0.5rem;
+    opacity: 0.9;
+    padding-bottom: 0.125rem;
+    font-feature-settings: 'salt' on, 'liga' off;
+}
+
+@media screen and (min-width: 480px) {
+    .whiteCard{
+        padding-left: 0.45rem;
+        padding-right: 0.45rem;
+
+    }
+    
+  }

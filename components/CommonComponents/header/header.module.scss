@@ -1,0 +1,238 @@
+.header{
+    position: fixed;
+    z-index: 9;
+    background: white;
+    width: 100%;
+    
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    // background: rgba(255, 255, 255, 0.8);
+    // backdrop-filter: blur(50px);
+    // -webkit-backdrop-filter: blur(50px); 
+    background: white;
+    overflow-x: hidden;
+    transition: height 0.5s ease-out;
+}
+  .io {
+    background-color: red;
+    transform: scaleY(0);    
+    transform-origin: top;
+    transition: transform .4s ease;
+  }
+  .kl:hover ~ ul {
+    transform: scaleY(1);
+  }
+  
+  .overlay_content {
+    position: relative;
+    top: 15%;
+    width: 100%;
+    padding: 0 9rem; 
+    font-weight: 500;
+    font-family: "Inter SemiBold"; 
+  }
+
+  // .navIcon:hover {
+    
+  // }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    // color: #818181;
+    color: rgba(0, 0, 0, 0.767);
+    display: block;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #9E1B32;
+  }
+
+  .w_100{
+    width: 100%;
+  }
+
+  .w_0{
+    width: 0%;
+  }
+
+  .header_border{
+    border-left: 1px solid #9E1B32;
+  }
+
+  .joinButton{
+    padding-right: 8px;
+    color: grey;
+    font-size: 14px;
+    font-weight: 700;
+    transition: 0.3s;
+  }
+
+  .joinButton:hover{
+    color: #9E1B32;
+  }
+
+  .onHoverMarron:hover{
+    background-color: #9E1B32;
+    transition: 0.5s ease-in-out;
+    color: white;
+  } 
+
+  .logoWidth{
+    width: 40%;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {
+      font-size: 20px
+    }
+  }
+
+.smallHeaderLinks{
+  color: black;
+  // opacity: 0.6;
+  font-feature-settings: 'salt' on, 'liga' off;
+  padding: 6px 0;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+}
+
+.smallHeaderLinks:hover{
+  color: #9E1B32;
+}
+
+.dropDownMainLink{
+  font-size: 15px;
+  color: black;
+  // opacity: 0.6;
+}
+
+.innerLink{
+  font-size: 14px;
+  color: grey !important;
+  // opacity: 0.4;
+  padding: 5px 0;
+  
+}
+
+@media (min-width:1024px){
+  .overlay_content {
+    padding: 0 5rem;
+  }
+
+  .header{
+    height: 4.2rem;
+  }
+
+  .logoWidth{
+    width: 45%;
+  }
+}
+
+@media (min-width:1200px){
+  .overlay_content {
+    padding: 0 6rem;
+  }
+
+  .header{
+    height: 4.5rem;
+  }
+
+  .logoWidth{
+    width: 43%;
+  }
+}
+
+@media (min-width:1500px){
+  .overlay_content {
+    padding: 0 15rem;
+  }
+
+  .header{
+    height: 5.5rem !important;
+  }
+
+  .logoWidth{
+    width: 40%;
+  }
+}
+
+@media screen and (max-width:640px){
+  .overlay_content {
+    padding: 0 2rem; 
+    top: 10%;
+  }
+
+  .joinButton{
+    font-size: 12px;
+    padding-bottom: 4px;
+  }
+  .header{
+    height: 3.5rem;
+  }
+  .logoWidth{
+    width: 70%;
+  }
+
+  .overlay a {
+    padding: 0;
+  }
+
+  .innerLink{
+    padding-bottom: 1rem !important;
+  }
+
+  .smallMenuFontColor{
+    color: black !important;
+  }
+
+  .dropDownMainLink{
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+  .header{
+    height: 3.5rem;
+  }
+  
+  .logoWidth{
+    width: 55%;
+  }
+
+  .overlay a {
+    padding: 0;
+  }
+
+  .innerLink{
+    padding-bottom: 1rem !important;
+  }
+
+  .smallMenuFontColor{
+    color: black !important;
+  }
+}
+
+.hamburgerMenu{
+  background-image: url('../../../public/images/homePage/NavigationButton.svg');
+  height: 50px;
+  width: 50px;
+  
+  &:hover{
+    background-color: #9E1B32;
+    color: #9E1B32;
+    transition: ease-in-out 0.4s;
+    background-image: url('../../../public/images/white.svg');
+  }
+}

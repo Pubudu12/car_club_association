@@ -1,0 +1,39 @@
+$color-white: white;
+
+
+.sliderTextOuter{
+    background-color: $color-white;
+    padding: 30px;
+}
+
+// .sliderTextOuter h1 div{
+//     font-family: 'Raleway Variable';
+// }
+
+.sliderTextOuter p{
+    font-family: 'Inter Regular';
+}
+
+.imageSmall{
+    display: none !important;
+}
+
+@media only screen and (max-device-width: 640px) {
+    .imageLarge {
+      display: none !important;
+    }
+    .imageSmall {
+      display: block !important;
+    }
+
+    .sliderTextOuter{
+      padding: 20px;
+    }
+}
+
+.twitter::before {
+    content: '\f099';
+  font-family: "Font Awesome 6 brands"; 
+	font-weight: 400;
+  }
+  

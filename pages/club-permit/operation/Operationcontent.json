@@ -1,0 +1,56 @@
+{ 
+    "itemset":[
+        {
+            "TitleAvailabe":false,
+            "title":"",
+            "childAvailable":false,
+            "SecondTitleAvailabe":true,
+            "SecondTitle":"The JCCV is obliged under its Deed of Agreement with VicRoads to ensure that CPS vehicles in the club are operated in accordance with the requirements of the scheme.",
+
+            "innerText":[
+                
+
+              
+            ]
+           
+               
+        },
+      
+        {
+                        
+            "TitleAvailabe":false,
+
+            "title":"",
+            "childAvailable":true,
+            "SecondTitleAvailabe":true,
+            "SecondTitle":"Under the terms of this agreement the <b>club must advise VicRoads within 7 Days</b> if the club becomes aware of any of the following ",
+
+            "innerText":[
+                {
+                    "step":" A pattern of incorrect use of a club permit log book by a club Member"
+                },
+                {
+                    "step":"A club Member has ceased to become a financial Member of the club"
+                },
+                {
+                    "step":" A club permit vehicle is suspected of being used for commercial gain "
+                },
+                {
+                    "step":"A club Member has failed to restore a vehicle to safe condition or has failed to prove compliance with the Vehicle Standards and/or appropriate modification guidelines following a notification from the club under paragraph 7 in accordance with the terms of that notification "
+                },
+                {
+                    "step":"A vehicle operated by one of its Members under a club permit has been disposed of with the intention of undermining the club permit scheme (for example, a club permit vehicle has been sold to a “friend” so that a new log book can be obtained, but the previous owner continues to utilize the vehicle)."
+                },
+                {
+                    "step":" Under clauses 3 and 4 of its agreement with VicRoads the club is required to:"
+                }
+
+              
+            ]
+           
+               
+        }
+
+
+    ]
+} 
