@@ -1,5 +1,5 @@
 {
-  "name": "jaguar",
+  "name": "carclub",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -28,13 +28,6 @@
     "nodemailer": "^6.9.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-markdown": "^8.0.4",
-    "react-select": "^5.7.0",
-    "react-slick": "^0.29.0",
-    "react-timezone-select": "^2.1.2",
-    "react-to-print": "^2.14.11",
-    "rehype-raw": "^6.1.1",
-    "sass": "^1.56.1",
     "save-dev": "^0.0.1-security",
     "slick-carousel": "^1.8.1",
     "tui-calendar": "^1.15.3",

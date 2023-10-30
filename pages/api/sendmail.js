@@ -221,7 +221,7 @@ const generateEmailContent = (data) => {
           <td class="v-container-padding-padding" style="overflow-wrap:break-word;word-break:break-word;padding:10px 30px 40px;font-family:arial,helvetica,sans-serif;" align="left">
             
       <div style="color: white; line-height: 180%; text-align: center; word-wrap: break-word;">
-        <p style="font-size: 14px; line-height: 180%; color:white">If you have any questions, feel free message us at <span style="color:white; font-size: 14px; line-height: 25.2px;"><a style="color:white" rel="noopener" href="mailto:secretary@jagvic.org.au" target="_blank">secretary@jagvic.org.au </a></span></p>
+        <p style="font-size: 14px; line-height: 180%; color:white">If you have any questions, feel free message us at <span style="color:white; font-size: 14px; line-height: 25.2px;"><a style="color:white" rel="noopener" href="mailto:testemail@gmail.com" target="_blank">testemail@gmail.com </a></span></p>
     
       </div>
     
@@ -257,7 +257,7 @@ const generateEmailContent = (data) => {
           <td class="v-container-padding-padding" style="overflow-wrap:break-word;word-break:break-word;padding:15px 10px;font-family:arial,helvetica,sans-serif;" align="left">
             
       <div style="color: white; line-height: 140%; text-align: center; word-wrap: break-word;">
-        <p style="font-size: 14px; line-height: 140%;color:white"><span style="font-size: 10px; line-height: 14px; color:white">&copy; Copyright © 2023 Jaguar Car Club of Victoria,  All Rights Reserved.</span></p>
+        <p style="font-size: 14px; line-height: 140%;color:white"><span style="font-size: 10px; line-height: 14px; color:white">&copy; Copyright © 2023 Car Club,  All Rights Reserved.</span></p>
       </div>
     
           </td>
@@ -300,8 +300,7 @@ const handler = async (req, res) => {
     try {
       await transporter.sendMail({
         from: data.email, // sender address
-        to: "secretary@jagvic.org.au",
-        // to: "jccvictoria2023@gmail.com",
+        to: "testemail@gmail.com",
         ...generateEmailContent(data),
         subject: data.subject,
       });
